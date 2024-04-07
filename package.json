@@ -1,0 +1,19 @@
+{
+  "name": "domain-verification",
+  "version": "1.0.0",
+  "description": "A Node.js package for verifying domain ownership through customizable DNS TXT records, supporting both promise and callback-based asynchronous workflows.",
+  "keywords": [
+    "domain",
+    "verification",
+    "DNS",
+    "TXT record",
+    "ownership"
+  ],
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brad Traynham",
+  "license": "CC BY-SA"
+}
