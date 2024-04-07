@@ -1,5 +1,5 @@
 {
-  "name": "domain-verification",
+  "name": "txt-domain-verification",
   "version": "1.0.0",
   "description": "A Node.js package for verifying domain ownership through customizable DNS TXT records, supporting both promise and callback-based asynchronous workflows.",
   "keywords": [
@@ -15,6 +15,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brad Traynham",
-  "repository": "btray77/domain-verification",
+  "repository": "btray77/txt-domain-verification",
   "license": "CC BY-SA"
 }
