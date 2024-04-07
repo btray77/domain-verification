@@ -13,7 +13,7 @@ This package provides tools for verifying domain ownership through DNS TXT recor
 Install the package using npm:
 
 ```
-npm install domain-verification
+npm install txt-domain-verification
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Generate a verification code with an optional custom format.
 By default, the format is `{{businessName}}-domain-verification={{code}}`.
 
 ```
-const { generateVerificationCode } = require('domain-verification');
+const { generateVerificationCode } = require('txt-domain-verification');
 
 generateVerificationCode('example.com', 'mybusiness', '{{businessName}}-verification={{code}}', (err, result) => {
   if (err) {
@@ -40,7 +40,7 @@ generateVerificationCode('example.com', 'mybusiness', '{{businessName}}-verifica
 Verify if a domain has the expected DNS TXT record.
 
 ```
-const { verifyDomain } = require('domain-verification');
+const { verifyDomain } = require('txt-domain-verification');
 
 verifyDomain('example.com', 'mybusiness-verification=123abc', (err, isVerified) => {
   if (err) {
@@ -75,7 +75,7 @@ Verifies the domain ownership by checking DNS TXT records.
 ### Using `require` in Node.js
 
 ```
-const { generateVerificationCode, verifyDomain } = require('domain-verification');
+const { generateVerificationCode, verifyDomain } = require('txt-domain-verification');
 
 // Generate a verification code
 generateVerificationCode('example.com', 'mybusiness', '{{businessName}}-verification={{code}}', (err, result) => {
@@ -101,7 +101,7 @@ verifyDomain('example.com', 'mybusiness-verification=123abc', (err, isVerified) 
 For environments that support ES Modules, you can import the package as follows:
 
 ```
-import { generateVerificationCode, verifyDomain } from 'domain-verification';
+import { generateVerificationCode, verifyDomain } from 'txt-domain-verification';
 
 // Generate a verification code
 generateVerificationCode('example.com', 'mybusiness', '{{businessName}}-verification={{code}}')
