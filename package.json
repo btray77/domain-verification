@@ -1,6 +1,6 @@
 {
   "name": "txt-domain-verification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js package for verifying domain ownership through customizable DNS TXT records, supporting both promise and callback-based asynchronous workflows.",
   "keywords": [
     "domain",
