@@ -10,10 +10,23 @@ This package provides tools for verifying domain ownership through DNS TXT recor
 
 ## Installation
 
-Install the package using npm:
-
+# Using npm
 ```
 npm install txt-domain-verification
+```
+# Using yarn
+```
+yarn add txt-domain-verification
+```
+
+# Using pnpm
+```
+pnpm add txt-domain-verification
+```
+
+# Using bun
+```
+bun add txt-domain-verification
 ```
 
 ## Usage
